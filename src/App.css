@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier Prime', monospace;
+    background-color: #1a1a1c;
+    color: #fff;
+}
+
+.coin-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    color: #fff;
+}
+
+.coin-title {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-context: center;
+    align-items: center;
+}
+
+.coin-categories {
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+    align-items: center;
+    height: 20px;
+    width: 1300px;
+}
+
+.categories-name{
+    text-align: left;
+    width: 300px;
+}
+
+.categories-price {
+    text-align: right;
+    width: 80px;
+}
+
+.categories-volume{
+    text-align: right;
+    width: 205px;
+}
+
+.categories-change{
+    text-align: right;
+    width: 105px;
+}
+
+.categories-marketcap{
+    text-align: right;
+    width: 220px;
+}
+
+.categories-own{
+    text-align: right;
+    width: 110px;
+}
+
+.categories-invested{
+    text-align: right;
+    width: 110px;
+}
+
+.categories-value{
+    text-align: right;
+    width: 110px;
+}
+
+.categories-average{
+    text-align: right;
+    width: 110px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 900px;
+}
+
+.portfolio-invested{
+    text-align: center;
+    width: 225px;
+}
+
+.portfolio-profit{
+    text-align: center;
+    width: 225px;
+}
+
+.portfolio-roi{
+    text-align: center;
+    width: 225px;
+}
+
+.portfolio-total{
+    text-align: center;
+    width: 225px;
+}
